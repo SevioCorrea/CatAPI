@@ -14,7 +14,3 @@ struct CatsStats: Decodable {
     let origin: String
     //let reference_image_id: String
 }
-
-//struct CatsImage: Decodable {
-//    let url: String
-//}

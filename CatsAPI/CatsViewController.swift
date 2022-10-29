@@ -9,7 +9,7 @@ import UIKit
 
 
 
-extension UIImageView {
+/* extension UIImageView {
     func downloaded(from url: URL, contentMode mode: ContentMode = .scaleAspectFit) {
         contentMode = mode
         URLSession.shared.dataTask(with: url) { data, response, error in
@@ -28,7 +28,7 @@ extension UIImageView {
         guard let url = URL(string: link) else { return }
         downloaded(from: url, contentMode: mode)
     }
-}
+} */
 
 
 class CatsViewController: UIViewController {
@@ -46,8 +46,6 @@ class CatsViewController: UIViewController {
         idLabel.text = cat?.id
         nameLabel.text = cat?.name
         temperamentLabel.text = cat?.temperament
-        //catsImage.image
-        //catsImage.downloaded(from: cat!.url)
     }
 }
 
